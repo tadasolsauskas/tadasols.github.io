@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What a Website</title>
+    <style>
+* {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                /* height: 200vh;
+                width: 100vw; */
+                background-image: url("CSSsite/blackbackground.jpg");
+                background-color: #cccccc;
+                
+            }
+            header {               
+                padding: 2em;
+                background: #fff;
+                display: flex;
+            }
+            img {
+                background-repeat: no-repeat;
+            }
+            .navigation {
+                padding: 2px;
+                flex-grow: 1;
+                margin: 0;
+            }
+            .nav_list {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                background: linear-gradient(to right, #339E66FF, #078282FF, #95DBE5FF);
+                gap: 2em;
+                justify-content: center;
+                font-size: 18px;
+                font-weight: bold;
+                
+            }
+            .nav_list a{
+                line-height: 3;
+                color: #00203FFF;
+                text-decoration: none;
+            }
+            .nav_list a:hover,
+            .nav_list a:focus {
+                color: #daa520;
+            }
+            h1,h4 {
+                color: #2DA8D8FF;
+                text-align: center;
+            }
+                     
+           .container {
+               width: 100vw;
+               height: 100vh;
+               display: flex;
+               gap: 5px;
+           }
+           .about {
+               width: 50%;
+               height: 50%;
+               float: left;
+               margin: 4rem;
+               flex-wrap: wrap;
+               background: #89ABE3FF;
+               border-radius: 9px;            
+           }
+           .hot_place {
+               width: 50%;
+               height: 50%;
+               float: right;
+               margin: 4rem;
+               border-radius: 50%;
+               
+           }
+           #facts {
+               font-weight: bold;
+               color: #4B878BFF;
+           }
+           .title {
+               font-size: 30px;
+               font-weight: bold;
+               margin-bottom: 4em;
+           }
+           .firstp {
+               font-size: 16px;
+               color: #FCF6F5FF;
+               font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+        font-size: 1.1em;
+	letter-spacing: .2em;
+	line-height: 1.1em;
+	margin:0px;
+	text-align: center;
+	text-transform: uppercase;
+           }
+           .secondp {
+               font-size: 16px;
+               color: #FCF6F5FF;
+               font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+        font-size: 1.1em;
+	letter-spacing: .2em;
+	line-height: 1.1em;
+	margin:0px;
+	text-align: center;
+	text-transform: uppercase;
+           }
+           
+           .grid-ish {
+               display: flex;
+               flex-wrap: wrap;
+               gap: 4em;
+           }
+           .grid-ish > * {
+               flex: 1 1 38em;
+               color: white;
+               text-align: left;
+               
+           }
+           .image {
+               display: flex;
+           } 
+           .botpic {
+            width: 100vw;
+               height: 100vh;
+               display: flex;
+               gap: 8px; 
+           }
+           .imageone {
+               float: left;
+               width: 50%;
+               height: 50%;
+               padding: 30px;
+               margin-left: 15vw;
+               box-shadow: 3px;
+           }
+           .imagetwo {
+               float: right;
+               width: 50%;
+               height: 50%;
+               padding: 30px;
+           }
+           footer {
+        display: flex;
+        justify-content: center;
+        font-size: 5px;
+        background: linear-gradient(to right, #95DBE5FF, #078282FF, #339E66FF);
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+    }
+    footer > div {
+        color: #FFD700;
+        margin: 1rem;
+        font-size: 15px;
+    }
+    #col1 {
+        color: #39CCCC;
+        font-size: 16px;
+        text-align: center;
+    }
+    #col2 {
+        color: #39CCCC;
+        font-size: 16px;
+        text-align: center;
+
+    }
+    #col3 {
+        color: #39CCCC;
+        font-size: 16px;
+        text-align: center;
+    }
+    .gridp {
+    color: #aad4e5;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+    font-variant: small-caps;   
+    }
+    #borealis {
+        width: 700px;
+        height: 540px;
+        border-radius: 30%;
+        
+    }
+    #borealis:hover {
+     transform: scale(1.2) ;
+    }
+</style>
+</head>
+<body>
+    <header id="top">
+    <nav class="navigation">
+        <ul class="nav_list">
+            <il><a href="About.asp">About</a></il>
+            <il><a href="News.asp">News</a></il>
+            <il><a href="Products.asp">Products</a></il>
+            <il><a href="Upcoming.asp">Upcoming</a></il>
+            <il><a href="Blog.asp">Blog</a></il>
+        </ul>
+    </nav>   
+</header>
+<div class="back_to_top_btn_wrapper">
+    <div class="back_to_top_btn">
+        <a href="#nav_1"><i class="fas fa-chevron-circle-up fa-4x"></i></a>
+    </div> 
+</div>
+<h1>WELCOME TO MY WEBSITE</h1>
+<h4>Where the magic sometimes happens.</h4>
+<main>
+    <div class="container">
+    <div class="about">
+        <section>
+        <h2 id="facts">SOME FACTS</h2>
+        <p class="firstp">Dark. Dark. Dark. It is not just about low light. It is important to remember the widest part of the Aurora is when the sun is on the opposite side 
+            of the earth. So late, nighttime (or early morning) dark tends to be best. But you also want few competing light sources so get away from the city lights and let 
+            your eyes adjust to the darkness. The further away from those earth based light sources the better for seeing the Northern Lights. Full moons hurt a bit because 
+            they increase ambient light and darkness is best for viewing. The darker the moon, the better.</p>       
+            <br>
+            <section>
+            <h2 id="facts">ALSO ABOUT BOREALIS</h2>   
+            <p class="secondp">Let's say two months from now the Aurora is flaring up in your area -- the sky is ablaze with greens, violets and reds -- but instead of watching it, you're home sitting on the couch.
+                Why? Because you simply didn't know about it.               
+                That's one of the problems with seeing the Aurora. It doesn’t run on a schedule. Often Auroras happen with only 30 minutes warning.                
+                That's why it's important to have a partner watching out for it for you. Someone who will watch the Aurora data, then, notify you immediately when the conditions are right for your area.               
+                </p>
+        </section>
+    </div>
+    <div class="hot_place">
+        <img id="borealis" src="CSSsite/iceberg2.jpg">
+    </div>
+</div>
+</main>
+<div class="content flow">
+    <h1 class="title">Vacation Destinations</h1>
+    <div class="grid-ish">
+        <div id="col1">OTTOMAN
+            <p class="gridp" style="color:white; text-align: left;"">While its Ottoman-influenced harbour and spaghetti bowl of cobble-stoned streets are delicately beautiful, 
+            Chania is packing a real punch when it comes to its food. From simple seaside cafés to exquisite Cretan fine dining, this city on the north-west coast of the Greek 
+            island has a select but quickly expanding scene that’s luring in expert palates.
+            In the Old Town, Ginger Concept can appear a little pretentious but is a must-try – the lemon artichoke pizzas and deep-fried coxinhas are to die for. 
+            Elsewhere, no-frills locals’ favourites include To Maridaki for fish soup and Oxo Nou Studio, a little spot with wobbly outdoor tables overlooking the water. 
+            A little further out of town, impeccable fish restaurant Sunset at Sfinari beach calls for a well-worth-it coastal drive, while the hidden eco-retreat of Milia can 
+            be found far up in the mountains, serving farm-to-table Cretan cooking with breathtaking views.</p>
+        </div>
+        <div id="col2">BIENNALES
+            <p class="gridp" style="color:white; text-align: center; border-left: inset; border-right: inset;">Like many countries, South Africa’s tourism industry has been through the wringer of late. But while the world has taken a forced break, 
+                a new generation of genre-busting creatives have been busy shining a light on the most diverse cultural community on the African continent.
+                 Biennales, fairs and new artist-run spaces are at the helm of the country’s enlivened art scene, with exciting local artists – including twin sisters Noncedo 
+                 and Nonzuzo Gxekwa – getting prime wall space at galleries such as the Maitland Institute and The Centre for the Less Good Idea. All-women music festivals, 
+                 Soweto township theatre groups and a burgeoning container coffee-shop scene in Maboneng draw the focus firmly onto Johannesburg. In Jozi, pan-African dinner 
+                 clubs such as Yeoville, run by chef Sanza Sandile, rub up alongside lively rooftop bars and secret hole-in-the-wall spots in the bohemian suburb of Melville.</p>
+        </div>
+        <div id="col3">PLENGKUNG
+            <p class="gridp" style="color:white; text-align: right; ">This corner of Indonesia is starting to be whispered about by surfers. And as we know, wherever the surfers go, the boutique hotels and 
+                eco-entrepreneurs follow. Often overlooked in favour of its famous neighbour G-land at Plengkung about a three-hour drive away, this underdeveloped island escape 
+                is drawing clued-up sorts to its empty beach breaks. Otherwise known as Red Island – people argue over the genesis of the name, divided between the russet sand 
+                and the bold-red sun rays that strike the sea – this is a place of deserted stretches of sand, patchy Wi-fi and barely any visitors. The hidden haven is an ideal 
+                spot for beginner boarders – instead of the sharp coral found in the shallows at G-land, the beach here is a swath of soft, sugary sand – although 13ft-high 
+                barrels make it a destination for experienced surfers, too.
+                 Here you’ll find locals, laid-back blow-ins and the occasional Aussie lounging salt-skinned and sipping on a cold Bintang at Mojosurf Camp, and the nearby 
+                 hugger-mugger fishing village of Pancer is a great base to shack up in a homestay. </p>
+        </div>        
+    </div>
+</div>
+<section>
+    <div class="botpic">
+    <div class="imageone" >
+        <img src="CSSsite/thirdpic.jpg" alt="picture of something" width="700px" height="600px">
+    </div>
+    <div class="imagetwo">
+        <img src="CSSsite/desert3.jpg" alt="desert" width="700px" height="600px">
+    </div>
+</div>
+</section>
+<footer>
+    <div>All rights reserved. &#169; Tadas Enterprised.</div>
+    <div>Company details</div>
+    <div>Links</div>
+</footer>
+</body>
+</html>
